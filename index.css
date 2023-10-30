@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #191919;
+    color: #fff;
+    display: flex;
+    height: 6.2rem;
+    border-bottom: 1px solid #4d4d4e;
+}
+
+.headers > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.headers{
+    display: flex;
+    align-items: center;
+    padding-right: 4vw;
+}
+
+.navbar > .headers > h2{
+    display: flex;
+    align-items: center;
+}
+
+.headers > ul > li{
+    margin: 0 2vw;
+}
+
+.headers > img{
+    height: 10vh;
+}
+
+.trade{
+    height: 4.5vh;
+    width: 4.5vw;
+    background-color: #3eb489;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color:#fff;
+}
+
+body{
+    background: #1b121d;
+    background: linear-gradient(90deg,#1b121d,#120f2f 50%,#1b121d);
+    color: #fff;
+    font-family:  "Relative",sans-serif;
+}
+
+.body1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh; 
+    margin-left: 8vw;
+}
+
+.body1 > p{
+    margin-top: 1vh;
+    width:25vw;
+}
+.body1 > button{
+    margin-top: 2vh;
+    width: 9vw;
+    height: 5vh;
+    background-color: #3eb489;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+}
+
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trading_volume{
+    margin: 8vh 5vw;
+    border: 1px solid #4d4d4e;
+    width: 15vw;
+    height: 10vh;
+    border-radius: 10px;
+    padding: 7px;
+    display: flex;
+}
+
+.open_interest{
+    margin: 8vh 5vw;
+    border: 1px solid #4d4d4e;
+    width: 16vw;
+    height: 10vh;
+    border-radius: 10px;
+    padding: 7px;
+    display: flex;
+}
+
+.total_users{
+    margin: 8vh 5vw;
+    border: 1px solid #4d4d4e;
+    width: 15vw;
+    height: 10vh;
+    border-radius: 10px;
+    padding: 7px;
+    display: flex;
+}
+
+.advs{
+    border-top: 1px solid #4d4d4e;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    padding-left: 8vw;
+}
+
+.liquidation_risks{
+    width: 22vw;
+    margin: 10vh 7vw;
+}
+
+.save_cost{
+    margin: 10vh 7vw;
+    width: 22vw;
+}
+
+.simple_swap{
+    margin: 10vh 7vw;
+    width: 22vw;
+}
+
+.headingtoken{
+    padding-left: 8vw;
+    margin-top: 5vh;
+}
+
+.tokens{
+    margin: 8vh 5vw;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid #4d4d4e; */
+}
+
+.token1{
+    width: 30vw;
+    border: 2px solid #4d4d4e;
+    /* height: ; */
+    margin-right: 4vw;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.token2{
+    width: 30vw;
+    border: 2px solid #4d4d4e;
+    /* margin-right: 4vw; */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button01{
+    display: flex;
+    
+
+}
+.button01 > button{
+    height: 3.5vh;
+    width: 4.5vw;
+    background-color: #3eb489;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button02{
+    display: flex;
+
+}
+
+.button02 > button{
+    display: flex;
+    height: 3.5vh;
+    width: 4.5vw;
+    background-color: #3eb489;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    /* position: ; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #191919;
+    color: #fff;
+    text-align: center;
+    height: 12rem;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    border-top: 1px solid #4d4d4e;
+}
+
+.footer1{
+    display: flex; 
+    justify-content: center;
+    /* align-items: center; */
+    margin-bottom: 1vh;
+ }
+
+ .footer1 > h2{
+    margin-top: 3vh;
+    margin-left: 0;
+ }
+
+.footer1 > img{
+    height: 5vh;
+    /* margin: 0 2vw; */
+} 
+.footer2 > img{
+    height: 5vh;
+    margin: 0 2vw;
+} 
+
+.footer2{
+    display: flex;
+    height: 2rem;
+    /* margin-bottom: 2vh; */
+}
+
+.footer3{
+    display: flex;
+    height: 2rem;
+    margin-top: 3vh;
+}
+
+.footer3 > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.footer3 > ul > li{
+    margin: 0 1vw;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}

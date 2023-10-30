@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #191919;
+    color: #fff;
+    display: flex;
+    height: 6.2rem;
+    border-bottom: 1px solid #4d4d4e;
+}
+
+.headers > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.headers{
+    display: flex;
+    align-items: center;
+    padding-right: 4vw;
+}
+
+.navbar > .headers > h2{
+    display: flex;
+    align-items: center;
+}
+
+.headers > ul > li{
+    margin: 0 2vw;
+}
+
+.headers > img{
+    height: 10vh;
+}
+
+.trade{
+    height: 4.5vh;
+    width: 4.5vw;
+    background-color: #3eb489;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color:#fff;
+}
+
+body{
+    background: #1b121d;
+    background: linear-gradient(90deg,#1b121d,#120f2f 50%,#1b121d);
+    color: #fff;
+    font-family:  "Relative",sans-serif;
+}
+
+.body1{
+    margin-top: 15vh; 
+    margin-left: 8vw;
+}
+
+.buy{
+    display: flex;
+    margin-top: 5vh; 
+    margin-left: 8vw;
+}
+
+.buyromi{
+    /* margin-top: 5vh; */
+    margin-right: 10vw;
+    padding: 5px;
+    border: 2px solid #4d4d4e;
+    width: 35vw;
+    border-radius: 5px;
+}
+
+.buybutton{
+    display: flex;
+}
+
+.buybutton > button{
+    margin-right: 1vw;
+        height: 4.5vh;
+        width: 4.5vw;
+        background-color: #3eb489;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        color:#fff;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #191919;
+    color: #fff;
+    text-align: center;
+    height: 12rem;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    border-top: 1px solid #4d4d4e;
+}
+
+.footer1{
+    display: flex; 
+    justify-content: center;
+    /* align-items: center; */
+    margin-bottom: 1vh;
+ }
+
+ .footer1 > h2{
+    margin-top: 3vh;
+    margin-left: 0;
+ }
+
+.footer1 > img{
+    height: 5vh;
+    /* margin: 0 2vw; */
+} 
+.footer2 > img{
+    height: 5vh;
+    margin: 0 2vw;
+} 
+
+.footer2{
+    display: flex;
+    height: 2rem;
+    /* margin-bottom: 2vh; */
+}
+
+.footer3{
+    display: flex;
+    height: 2rem;
+    margin-top: 3vh;
+}
+
+.footer3 > ul > li{
+    margin: 0 1vw;
+}
+
+.footer3 > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+} 
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
